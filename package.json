@@ -1,0 +1,62 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^12.0.0",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "5.11.2",
+    "@react-navigation/compat": "^5.3.20",
+    "@react-navigation/native": "~5.8.10",
+    "@react-navigation/stack": "~5.12.8",
+    "axios": "^0.21.1",
+    "expo": "~42.0.0",
+    "expo-asset": "^8.3.3",
+    "expo-constants": "~11.0.1",
+    "expo-font": "~9.2.1",
+    "expo-linking": "~2.3.1",
+    "expo-print": "^10.2.1",
+    "expo-secure-store": "^10.2.0",
+    "expo-sharing": "^9.2.1",
+    "expo-splash-screen": "~0.11.2",
+    "expo-status-bar": "~1.0.4",
+    "expo-web-browser": "~9.2.0",
+    "jwt-decode": "^3.1.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-basic-form": "^1.1.11",
+    "react-native-big-calendar": "^1.0.2",
+    "react-native-calendars": "^1.1264.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "^3.4.2",
+    "react-native-events-calendar": "^1.0.8",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-web": "~0.13.12",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "jest-expo": "~41.0.0-beta.0",
+    "reactotron-react-native": "^5.0.0",
+    "typescript": "~4.0.0"
+  },
+  "private": true
+}
